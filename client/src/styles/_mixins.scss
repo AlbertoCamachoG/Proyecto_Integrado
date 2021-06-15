@@ -1,0 +1,25 @@
+@import "./fonts";
+@mixin columna{ 
+    display: flex;
+    flex-direction: column;
+}   
+@mixin aLotOfText{
+    @include columna;
+    border:solid 2px;
+    margin:10px !important;
+    padding:15px;
+    text-align: left;
+}
+@mixin titleBold{
+    display:flex;
+    justify-content: center;
+    font-weight: bold
+}
+
+@mixin titlesFont{
+    font-family: 'Mate SC', serif;
+}
+@mixin normalFont{
+    font-family: 'Merriweather', serif;
+
+}

@@ -1,0 +1,186 @@
+@import "./mixins";
+.back{
+    background: url("https://firebasestorage.googleapis.com/v0/b/roll100.appspot.com/o/wood.jpg?alt=media&token=c051e40d-e8a5-45ab-b885-280440803d4c");
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.mainFicha{
+    margin: 2% auto!important;
+    background-color: rgb(235, 231, 225);
+    width: 80%;
+    border:solid 1px black;
+    padding:50px;
+    //overflow: scroll
+}
+.featureExplained{
+    @include columna;
+    max-width: 600px;
+    min-height: 200px;
+    max-height: 400px;
+    background-color: rgb(238, 215, 215);
+    border:dashed 1px;
+    top:20%;
+    left:0;
+    margin:auto !important;
+    right:0;
+    position: fixed;
+    padding:40px;
+    padding-top:10%;
+    align-content: center;
+    z-index: 3;
+}
+.createChar{
+    .loader{
+        border-radius: 20px;
+        padding:6px 10px;
+    }
+    input{
+        @include normalFont;
+        text-align: center;
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(235, 231, 225);
+        border-bottom: black double ;
+        flex-wrap: wrap;
+        input{
+            text-align: center;
+        }
+        .name{
+            border-radius: 20px;
+            outline: none;
+            
+        }
+        .nombre{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            padding: 40px;
+            margin-right:10px !important;
+            
+        }
+        
+        .datos{
+            width: 60%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px;
+            margin-left:10px !important;
+            position: relative;
+            
+            
+        }
+        section{
+            width: fit-content;
+            margin-right: 20px !important;
+            @include columna;
+        }
+    }
+    .stats{
+        @include columna;
+        flex-wrap: wrap;
+
+    }
+    .statsSide{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .stats1{
+        width:100%;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around
+    }
+    .mainStats{
+        @include columna;
+        align-content: center;
+        justify-content: flex-start;
+        margin:20px !important;
+        .bono{
+            display: flex;
+            padding:5px;
+            border:dashed 3px black;
+            border-radius: 10px;
+            align-self: center;
+        }
+        div{
+            width: 100%;
+            @include columna;
+            input{
+                text-align: center;
+            }
+        }
+    }
+    .savingThrows{
+        @include columna;
+        border:solid 2px;
+        margin:10px !important;
+        padding:15px;
+        text-align: left;
+        min-width: 271px;
+        @include normalFont;
+        label:last-child{
+            text-align: center;
+        }
+    }
+    .features{
+        @include aLotOfText;
+        min-width: 221px;
+        .titl{
+            @include titleBold
+        }
+        
+    }
+    .writeALot{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        .customWriteALot{
+            @include aLotOfText;
+            height: fit-content;
+            max-width: fit-content;
+            margin:20px !important;
+            width: 500px;
+            height: 200px;
+            .titl{
+                @include titleBold
+            }
+            textarea{
+                height: 100%;
+                resize: none;
+            }
+        }
+    }
+    
+    .head{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content:center;
+        section{
+            input{
+                width: 80px;
+            }
+            
+        }
+    }
+    
+    .normalFo{
+        @include normalFont;
+    }
+    .areaDeTexto{
+        box-sizing: border-box;
+        padding: 20px;
+        
+    }
+}
+.fuentetitulo{
+    @include titlesFont;
+    font-size: 1.1rem;
+}

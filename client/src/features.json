@@ -1,0 +1,21 @@
+{
+    "features":{
+        "Rage":"",
+        "Unarmored Defense":"While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a Shield and still gain this benefit.",
+        "Reckless Attack":"Starting at 2nd Level, you can throw aside all concern for Defense to Attack with fierce desperation. When you make your first Attack on Your Turn, you can decide to Attack recklessly. Doing so gives you advantage on melee weapon Attack Rolls using Strength during this turn, but Attack Rolls against you have advantage until your next turn.",
+        "Danger Sense":"At 2nd Level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity Saving Throws against Effects that you can see, such as traps and Spells. To gain this benefit, you can't be Blinded, Deafened, or Incapacitated.",
+        "Primal Path":"At 3rd Level, you choose a path that shapes the Nature of your rage, such as the Path of the Berserker. Your choice grants you features at 3rd Level and again at 6th, 10th, and 14th levels.",
+        "Ability Score Improvement":"You can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+        "Extra Attack":"Beginning at 5th Level, you can Attack twice, instead of once, whenever you take the Attack action on Your Turn.",
+        "Fast Movement":"Starting at 5th Level, your speed increases by 10 feet while you aren't wearing Heavy Armor.",
+        "Path Feature":"",
+        "Feral Instinct":"By 7th level, your instincts are so honed that you have advantage on Initiative rolls.Additionally, if you are surprised at the Beginning of Combat and aren't Incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.",
+        "Brutal Critical (1 dice)":"You can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee Attack.",
+        "Brutal Critical (2 dice)":"You can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee Attack.",
+        "Relentless Rage":"Starting at 11th level, your rage can keep you Fighting despite grievous wounds. If you drop to 0 Hit Points while you're raging and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead. Each time you use this feature after the first, the DC increases by 5. When you finish a short or Long Rest, the DC resets to 10.",
+        "Brutal Critical (3 dice)":"You can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee Attack.",
+        "Persistent Rage":"Beginning at 15th level, your rage is so fierce that it ends early only if you fall Unconscious or if you choose to end it.",
+        "Indomitable Might":"Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total.",
+        "Primal Champion":"At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24."
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "bard":{
+        "lvlBonus":{
+            "features":{
+                "1":["Spellcasting","Bardic Inspiration(d6)"],
+                "2":["Jack of All Trades","Song of Rest(d6)"],
+                "3":["Bard College","Expertise"],
+                "4":["Ability Score Improvement"],
+                "5":["Bardic Inspiration(d8)","Font of Inspiration"],
+                "6":["Countercharm","Bard College Feature"],
+                "7":[],
+                "8":["Ability Score Improvement"],
+                "9":["Song Of Rest(d8)"],
+                "10":["Bardic Inspiration(d10)","Expertise","Magical Secrets"],
+                "11":[],
+                "12":["Ability Score Improvement"],
+                "13":["Song Of Rest(d10)"],
+                "14":["Magical Secrets","Bard College Feature"],
+                "15":["Bardic Inspiration(d12)"],
+                "16":["Ability Score Improvement"],
+                "17":["Song Of Rest(d12)"],
+                "18":["Magical Secrets"],
+                "19":["Ability Score Improvement"],
+                "20":["Superior Inspiration"]
+            },
+            "Spells":{
+                "1":[2,2,0,0,0,0,0,0,0,0],
+                "2":[2,3,0,0,0,0,0,0,0,0],
+                "3":[2,4,2,0,0,0,0,0,0,0],
+                "4":[3,4,3,0,0,0,0,0,0,0],
+                "5":[3,4,3,2,0,0,0,0,0,0],
+                "6":[3,4,3,3,0,0,0,0,0,0],
+                "7":[3,4,3,3,1,0,0,0,0,0],
+                "8":[3,4,3,3,2,0,0,0,0,0],
+                "9":[3,4,3,3,3,1,0,0,0,0],
+                "10":[4,4,3,3,3,2,0,0,0,0],
+                "11":[4,4,3,3,3,2,1,0,0,0],
+                "12":[4,4,3,3,3,2,1,0,0,0],
+                "13":[4,4,3,3,3,2,1,1,0,0],
+                "14":[4,4,3,3,3,2,1,1,0,0],
+                "15":[4,4,3,3,3,2,1,1,1,0],
+                "16":[4,4,3,3,3,2,1,1,1,0],
+                "17":[4,4,3,3,3,2,1,1,1,1],
+                "18":[4,4,3,3,3,3,1,1,1,1],
+                "19":[4,4,3,3,3,3,2,1,1,1],
+                "20":[4,4,3,3,3,3,2,2,1,1]
+            }
+        },
+        "hitPoints":"8",
+        "hitMod":"Const",
+        "proficiency":{
+            "armor":["Light Armor"],
+            "weapons":["Simple Weapons", "Hand Crossbows","Longsword","Rapiers","Shortswords"],
+            "tools":["Three Musical Instruments of Your Choice"],
+            "savingThrows":["Dexterity","Charisma"],
+            "skillsNumber":3,
+            "skills":["all"]
+        }
+    }
+}

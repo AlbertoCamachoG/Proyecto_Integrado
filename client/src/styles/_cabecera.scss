@@ -1,0 +1,65 @@
+@import "./mixins";
+*{
+    margin: 0 !important;
+}
+html{
+    height: 100%;
+    
+}
+.cabecera{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url("https://firebasestorage.googleapis.com/v0/b/roll100.appspot.com/o/header.jpg?alt=media&token=25d8ab82-03fd-497b-a3c7-5a6c52463db8") 0% 15%;
+    color:white;
+    font-size:2rem;
+    min-height: 200px;
+    @include titlesFont;
+    .usuario{
+        flex-wrap: wrap;
+        background-color:rgba(0, 0, 0,0.3);
+        width: 100%;
+        min-height: 200px;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+.Logo{
+    height:150px;
+    transition: all .2s ease-in-out;
+}
+.Title{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    &:hover{
+        background-color: rgba(0, 0, 0,0.3);
+        border-radius: 100px;
+        padding:15px
+    }
+    
+}
+
+.logout{
+    padding:5px 20px;
+    @include titlesFont;
+    transition: all .2s ease-in-out;
+    &:hover{
+        background-color: red;  
+        font-weight: bold;
+        transform: scale(1.1); 
+    }
+}
+.login{
+    padding:5px 20px;
+    @include titlesFont;
+    &:hover{
+        background-color: green;  
+        font-weight: bold;
+        transform: scale(1.1); 
+    }
+}
+
